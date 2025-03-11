@@ -16,8 +16,8 @@
 // document.write(returning)
 
 // Qno:3 Write a function that adds two numbers (input by user) and returns the sum of two numbers.
-// let num1=+prompt("Enter Your Number")
-// let num2=+prompt("Enter Your Number")
+// let num1=Number(prompt("Enter Your Number"))
+// let num2=Number(prompt("Enter Your Number"))
 // function sum(num1,num2) {
 //     let result=num1+num2
 //     return result
@@ -28,9 +28,9 @@
 
 // Qno:4 Calculator:
 // Write a function that takes three arguments num1, num2& operator & compute the desired operation. Return andshow the desired result in your browser
-// let num1=+prompt("Enter Your Number");
+// let num1=Number(prompt("Enter Your Number"));
 // let operator=prompt("Enter Your Operator")
-// let num2=+prompt("Enter Your Number");
+// let num2=Number(prompt("Enter Your Number"));
 
 // function calculator(num1,operator,num2) {
 //     if(operator==="+"){
@@ -62,7 +62,7 @@
 // document.write(result)
 
 // Qno:5  Write a function that squares its argument.
-// let number=+prompt("Enter Your Square Number");
+// let number=Number(prompt("Enter Your Square Number"));
 
 // function squarenum(num) {
 //  return num*num
@@ -71,7 +71,7 @@
 // document.write(finalResult);
 
 // Qno:6 Write a function that computes factorial of a number.
-// let number=+prompt("Enter Your factorial Number");
+// let number=Number(prompt("Enter Your factorial Number"));
 
 // function factorial(num) {
 //     let fact=1;
@@ -84,8 +84,8 @@
 // document.write(factorial(number));
 
 // Qno:7 Write a function that take start and end number as inputs & display counting in your browser.
-// let startNum=+prompt("Enter Your start Number");
-// let endNum=+prompt("Enter Your End Number");
+// let startNum=Number(prompt("Enter Your start Number"));
+// let endNum=Number(prompt("Enter Your End Number"));
 
 // function numbers(start,end) {
 //     for(i=start;i <= end;i++){
@@ -97,8 +97,8 @@
 // Qno:8 Write a nested function that computes hypotenuse of aright angle triangle.
 // Hypotenuse2 = Base2 + Perpendicular2
 
-// let base=+prompt("Enter Base of right angle triangle");
-// let perpendicular = +prompt('Enter perpendicular of right angle triangle');
+// let base=Number(prompt("Enter Base of right angle triangle"));
+// let perpendicular = Number(prompt('Enter perpendicular of right angle triangle'));
 
 // function calculateHypotenuse(base,perpendicular) {
     
@@ -122,8 +122,8 @@
 
 // i. Arguments as value
 // ii. Arguments as variables
-// let width=+prompt("Enter Your Width Number");
-// let height=+prompt("Enter Your Height Number");
+// let width=Number(prompt("Enter Your Width Number"));
+// let height=Number(prompt("Enter Your Height Number"));
 // function areaCalculate(width,height) {
 //     let A=width*height
 //     return A;
